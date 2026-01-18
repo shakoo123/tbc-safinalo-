@@ -1,0 +1,117 @@
+@media (max-width: 768px) {
+
+  header {
+    height: auto;
+    padding: 10px 0;
+  }
+
+  .header-container {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  nav ul li a {
+    font-size: 16px;
+  }
+
+  .d-3 img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .s-1 {
+    height: 400px;
+    text-align: center;
+  }
+
+  h1, h4 {
+    font-size: 28px;
+  }
+
+  .s-2-container {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .s-2-d1 {
+    width: 90%;
+    height: auto;
+  }
+
+  footer {
+    height: auto;
+  }
+
+  footer .container {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 1024px) {
+
+  .s-2-container {
+    flex-wrap: wrap;
+  }
+
+  .s-2-d1 {
+    width: 45%;
+  }
+}
+@media (max-width: 768px) {
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #FCF3EB;
+    padding: 20px 0;
+    gap: 15px;
+    height: auto;
+  }
+
+  footer .container {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  footer img {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+/* TABLET (769px – 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+  footer .container {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  footer img {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+/* DESKTOP (≥1025px) */
+@media (min-width: 1025px) {
+  footer .container {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  footer img {
+    width: 50px;
+    height: 50px;
+  }
+}

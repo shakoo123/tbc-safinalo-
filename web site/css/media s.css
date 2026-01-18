@@ -1,0 +1,63 @@
+
+
+@media (max-width: 768px){
+
+  /* HEADER */
+  header {
+    height: auto;
+    padding: 10px 0;
+  }
+
+  .header-container {
+    flex-direction: column;
+    gap: 10px;
+  }
+  nav ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  nav ul li a {
+    font-size: 16px;
+  }
+
+  .d-3 img {
+    width: 40px;
+    height: 40px;
+  }
+
+  /* SECTIONS */
+  .s1-container,
+  .s2-container,
+  .s3-container,
+  .s4container,
+  .s5-container {
+    flex-direction: column;
+    width: 90%;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .s2-container img,
+  .s3-container img,
+  .s4container img,
+  .card1 img,
+  .card2 img,
+  .card3 img,
+  .card5 img {
+    width: 90%;
+    height: auto;
+  }
+
+  .satauri h2 {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  
+
+
+footer {
+    display: none !important; 
+}
+}

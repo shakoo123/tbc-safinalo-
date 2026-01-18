@@ -1,0 +1,253 @@
+header{
+ height: 100px;
+ position: fixed;
+ top: 0;
+ width: 100%;
+ z-index: 1000;
+ box-shadow: 0 0 30px 4px rgb(0, 0, 0);
+ background-color: #D1BEAF;
+ display: flex;
+ align-items: center;
+} 
+
+
+.header-container{
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ margin: 0 auto;
+ max-width: 1200px;
+ width: 100%;
+ padding: 0 12px;
+}
+
+
+nav ul{
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+a{
+    color: #472D1C;
+    font-family: "Copperplate Gothic Light";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.active{
+    color: #0565e2;
+    font-family: "BPG No9";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.d-s a{
+  cursor: pointer;
+}
+.d-s img{
+  margin-left: 10px ;
+  margin-top: 5px;
+}
+.d-3{
+  display: flex;
+  gap: 20px;  
+}
+.d-3 img{
+ width: 50px;
+ height: 50px;
+}
+main{
+  margin-top: 105px;
+  background-color: #FCF3EB;
+}
+.satauri{
+  display: flex;
+  justify-content: center;
+  color: #472D1C;
+  font-family: "Bell MT";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 10px 0;
+}
+
+/* section  1*/
+
+.s-1{
+ margin-top: 30px;
+ display: flex;
+ justify-content: center;
+}
+.s1-container{
+  width: 1200px;
+  display: flex;
+  gap: 20px;
+}
+.s1-container p{
+  color: #796751;
+  font-family: "Bell MT";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  font-family: "BPG No9", sans-serif;
+}
+
+/* section 2 */
+
+.s-2{
+ display: flex;
+ justify-content: center;
+ margin-top: 40px;
+}
+.s2-container{
+  width: 1200px;
+  display: flex;
+  gap: 20px;
+}
+.s2-container img{
+  width: 273px;
+  height: 250px;
+}
+.s2-container{
+  color: #796751;
+  font-family: "Bell MT";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  font-family: "BPG No9", sans-serif;
+}
+
+/* section 3 */
+
+.s-3{
+  display: flex; 
+  justify-content: center;
+  margin-top: 40px;
+}
+.s3-container{
+  width: 1200px;
+  display: flex;
+  gap: 20px;
+}
+.s3-container img{
+  width: 273px;
+  height: 250px;
+}
+.s3-container p{
+  color: #796751;
+  font-family: "Bell MT";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  font-family: "BPG No9", sans-serif;
+}
+
+/* section 4 */
+.s-4{
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+.s4container{
+  width: 1200px;
+  display: flex;
+  gap: 20px;
+}
+.s4container img{
+  width: 273px;
+  height: 250px;
+}
+.s4container p{
+  color: #796751;
+  font-family: "Bell MT";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  font-family: "BPG No9", sans-serif;
+}
+
+/* section 5 */
+
+.s-5{
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.s5-container {
+  margin-top: 40px;
+  width: 1300px;
+  display: flex;
+  justify-content: space-around;
+
+}
+
+/* card */
+.card1{
+  width: 300px;
+  height: 400px;
+}
+.card1 img{
+ width: 250px;
+ height: 200px;
+}
+.card2{
+  width: 300px;
+  height: 400px;
+}
+.card2 img{
+ width: 250px;
+ height: 200px;
+}
+.card3{
+  width: 300px;
+  height: 400px;
+}
+.card3 img{
+  width: 250px;
+  height: 200px;
+}
+.card5{
+  width: 300px;
+  height: 400px;
+}
+.card5 img{
+  width: 250px;
+  height: 200px;
+}
+
+.p-p{
+  margin: 0px 10px;
+  color: #302923;
+  font-family: "Bell MT";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+/* footer */
+footer{
+  display: flex;
+  background-color: #FCF3EB;
+  height: 200px;
+}
+footer img{
+  margin-top: 50px;
+}
+.container{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.x-x{
+  width: 50px;
+  height: 50px;
+}

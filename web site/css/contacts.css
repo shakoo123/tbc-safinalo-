@@ -1,0 +1,139 @@
+header{
+ height: 100px;
+ position: fixed;
+ top: 0;
+ width: 100%;
+ z-index: 1000;
+ box-shadow: 0 0 30px 4px rgb(0, 0, 0);
+ background-color: #D1BEAF;
+ display: flex;
+ align-items: center;
+} 
+
+
+.header-container{
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ margin: 0 auto;
+ max-width: 1200px;
+ width: 100%;
+ padding: 0 12px;
+}
+
+
+nav ul{
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+a{
+  color: #472D1C;
+  font-family: "Copperplate Gothic Light";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.active{
+  color: #0565e2;
+  font-family: "BPG No9";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.d-s a{
+  cursor: pointer;
+}
+.d-s img{
+  margin-left: 10px ;
+  margin-top: 5px;
+}
+.d-3{
+  display: flex;
+  gap: 20px;  
+}
+.d-3 img{
+  width: 50px;
+ height: 50px;
+}
+/* section 2 */
+.s-2{
+  height: 340px;
+  margin-top: 680px;
+  width: 1400px;
+  display: flex;
+}
+.s2container-1{
+   
+    height: 100%;
+    width: 50%;
+    justify-content: center;
+}
+.card-1{
+   display: flex;
+}
+.card-2{
+    margin-top: 40px;
+    display: flex;
+}
+.card-3{
+    margin-top: 40px;
+    display: flex;
+}
+.card-4{
+    margin-top: 40px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+h3{
+    color: #472D1C;
+    text-align: center;
+    font-family: "Bell MT";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.8px;
+    text-transform: capitalize;
+}
+.s2container-1 img{
+    height: 30px;
+    width: 30px;
+    margin-left: 180px;
+   
+}
+.s2container-1 p{
+  margin-left: 50px;
+  margin-top: 10px;
+}
+
+.s2container-2{
+   height: 2; 
+   width: 50%;
+}
+.s2container-2 img{
+    width: 100%;
+    height: 256px;
+}
+/* footer */
+footer{
+  display: flex;
+  height: 200px;
+}
+footer img{
+  margin-top: 20px;
+}
+.container{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.x-x{
+  width: 50px;
+  height: 50px;
+}
+
